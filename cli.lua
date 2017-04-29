@@ -1,13 +1,13 @@
-bot = dofile('/home/username/inline/utils.lua')
-json = dofile('/home/username/inline/JSON.lua')
+bot = dofile('/home/flash1/inline/utils.lua')
+json = dofile('/home/flash1/inline/JSON.lua')
 URL = require "socket.url"
 serpent = require("serpent")
 http = require "socket.http"
 https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
-BASE = '/home/username/inline/'
-SUDO = 30410709 --sudo id
+BASE = '/home/flash1/inline/'
+SUDO = 374734484 --sudo id
 sudo_users = {30410709,123456789,Userid}
 BOTS = 00000000 --bot id
 bot_id = db:get(SUDO..'bot_id')
@@ -702,14 +702,14 @@ end
 	  ---############################################--
 	   if text == 'reload' and is_sudo(msg) then
        dofile('bot.lua') 
- bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>تغییرات مورد نظر شما اعمال شد.</code>', 1, 'html')
+ bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>تغییرات مورد نظر شما اعمال شد🔥.🔥</code>', 1, 'html')
             end
 	    if text == 'statsbot' and is_sudo(msg) then
     local gps = db:scard("botgp")
 	local users = db:scard("usersbot")
     local allmgs = db:get("allmsg")
 
-					bot.sendMessage(msg.chat_id_, msg.id_, 1, '>آمار ربات:\n\n`> سوپرگروه ها:` [*'..gps..'*]\n`> کاربران:` [*'..users..'*]\n`> کل پیام های دریافتی:` [*'..allmgs..'*]', 1, 'md')
+					bot.sendMessage(msg.chat_id_, msg.id_, 1, 🔥آمار ربات:\n\n🔥 سوپرگروه ها: [*'..gps..'*]\n🔥 کاربران: [*'..users..'*]\n🔥 کل پیام های دریافتی: [*'..allmgs..'*]', 1, 'md')
 	end
 	  --###########################################--
       -- owner
@@ -726,11 +726,11 @@ end
           if text and text:match('^setlink (.*)') then
             local link = text:match('setlink (.*)')
             db:set(SUDO..'grouplink'..msg.chat_id_, link)
-          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>لینک جدید با موفقیت ذخیره و تغییر یافت.</code>', 1, 'html')
+          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>🔥لینک جدید با موفقیت ذخیره و تغییر یافت.🔥</code>', 1, 'html')
             end
           if text == 'remlink' then
             db:del(SUDO..'grouplink'..msg.chat_id_)
-          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>لینک تنظیم شده با موفقیت بازنشانی گردید.</code>', 1, 'html')
+          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<code>>لینک تنظیم شده با موفقیت بازنشانی گردید🔥.🔥</code>', 1, 'html')
             end
             if text and text:match('^setname (.*)') then
             local name = text:match('^setname (.*)')
@@ -882,7 +882,7 @@ end
             end
           tdcli_function({
       ID = "GetInlineQueryResults",
-      bot_user_id_ = 254778917,
+      bot_user_id_ = 307078761,
       chat_id_ = msg.chat_id_,
       user_location_ = {
         ID = "Location",
@@ -1124,7 +1124,7 @@ end
       if text and text:match('^del (%d+)$') then
         local limit = tonumber(text:match('^del (%d+)$'))
         if limit > 100 then
-         bot.sendMessage(msg.chat_id_, msg.id_, 1, 'تعداد پیام وارد شده از حد مجاز (100 پیام) بیشتر است !', 1, 'html')
+         bot.sendMessage(msg.chat_id_, msg.id_, 1, 'تعداد پیام وارد شده از حد مجاز (100 پیام) بیشتر است !😐', 1, 'html')
           else
          function cb(a,b,c)
         local msgs = b.messages_
@@ -1203,7 +1203,7 @@ end
         local username = text:match('^whois @(.*)')
         function id_by_username(extra,result,success)
           if result.id_ then
-            text = '<code>شناسه:</code> [<b>'..result.id_..'</b>]\n<code>تعداد پیام های ارسالی:</code> [<b>'..(db:get(SUDO..'total:messages:'..msg.chat_id_..':'..result.id_) or 0)..'</b>]'
+            text = '<code>▪️شناسه:</code> [<b>'..result.id_..'</b>]\n<code>▪️تعداد پیام های ارسالی:</code> [<b>'..(db:get(SUDO..'total:messages:'..msg.chat_id_..':'..result.id_) or 0)..'</b>]'
             else 
             text = '<code>کاربر مورد نظر یافت نشد!</code>'
             end
@@ -1213,7 +1213,8 @@ end
         end
           if text == 'id' then
             if tonumber(msg.reply_to_message_id_) == 0 then
-        bot.sendMessage(msg.chat_id_, msg.id_, 1, '<code>شناسه-گروه</code>: {<b>'..msg.chat_id_..'</b>}', 1, 'html')
+	local msgs = db:get(SUDO..'total:messages:'..msg.chat_id_..':'..msg.sender_user_id_)
+        bot.sendMessage(msg.chat_id_, msg.id_, 1, '<code>شناسه-گروه</code>: {<b>'..msg.chat_id_..'</b>}''<code>شناسه:</code> [<b>'..msg.sender_user_id_..'</b>]\n<code>تعداد پیام ها:</code> [<b>'..msgs..'</b>]', 1, 'html')
           end
             end
 			if text == 'pin' then
@@ -1223,11 +1224,11 @@ end
 	   bot.sendMessage(msg.chat_id_, msg.reply_to_message_id_, 1, "<code>>پیام مورد نظر شما پین شد.</code>", 1, 'html')
    end
 			 if text == 'bot' then
-          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<b>BOT Online!</b>', 1, 'html')
+          bot.sendMessage(msg.chat_id_, msg.id_, 1,'<b>🔥spłÐΞЯ IS Online!🔥</b>', 1, 'html')
       end
         if text and text:match('whois (%d+)') then
               local id = text:match('whois (%d+)')
-            local text = 'برای مشاهده اطلاعات کاربر کلیک کنید.'
+            local text = '`برای مشاهده کاربر کلیک کنید!,Click to view User`'
 			--{"👤 برای مشاهده کاربر کلیک کنید!","Click to view User 👤"}
             tdcli_function ({ID="SendMessage", chat_id_=msg.chat_id_, reply_to_message_id_=msg.id_, disable_notification_=0, from_background_=1, reply_markup_=nil, input_message_content_={ID="InputMessageText", text_=text, disable_web_page_preview_=1, clear_draft_=0, entities_={[0] = {ID="MessageEntityMentionName", offset_=0, length_=36, user_id_=id}}}}, dl_cb, nil)
               end
@@ -1246,7 +1247,7 @@ end
       end
    -- member
    if text == 'ping' then
-          local a = {"<code>ربات فعال و آماده کار است.</code>","<code>ربات فعال است</code>","<b>pong!</b>"}
+          local a = {"<code>ρøиg spłÐΞЯ Is Online :)❤️</code>","<code>💥spłÐΞЯ Is Online :)💥</code>","<b>🔥pong! spłÐΞЯ Is Online :)🔥</b>"}
           bot.sendMessage(msg.chat_id_, msg.id_, 1,''..a[math.random(#a)]..'', 1, 'html')
       end
 	  db:incr("allmsg")
@@ -1285,7 +1286,7 @@ end
   -- help 
   if text and text == 'help' then
     if is_sudo(msg) then
-help = [[متن راهنمای مالک ربات ثبت نشده است.]]
+help = [[متن راهنمای مالک ربات ثبت نشده است🔥.🔥]]
 
   elseif is_owner(msg) then
     help = [[
