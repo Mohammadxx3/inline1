@@ -1,14 +1,14 @@
-bot = dofile('/home/flash1/inline/utils.lua')
-json = dofile('/home/flash1/inline/JSON.lua')
+bot = dofile('/home/flash2/inline/utils.lua')
+json = dofile('/home/flash2/inline/JSON.lua')
 URL = require "socket.url"
 serpent = require("serpent")
 http = require "socket.http"
 https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
-BASE = '/home/flash1/inline/'
+BASE = '/home/flash2/inline/'
 SUDO = 374734484 --sudo id
-sudo_users = {30410709,123456789,Userid}
+sudo_users = {374734484,346189693,Userid}
 BOTS = 00000000 --bot id
 bot_id = db:get(SUDO..'bot_id')
 function vardump(value)
