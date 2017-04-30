@@ -1,6 +1,6 @@
 <h1><p align="center"><stronge>Inline Suores</stronge>
-<h3><p align="center">Opened By <a href="https://telegram.me/LockerTeam"> Bibak </a>
-<h3><p align="center">DeBug By <a href="https://telegram.me/KING_DIS_LOVE"> MehTi </a>
+<h3><p align="center">Opened By <a href="https://telegram.me/LockerTeam"> King_dis_love </a>
+<h3><p align="center">DeBug By <a href="https://telegram.me/KING_DIS_LOVE"> Mohammad </a>
 <h1><p align="center"><stronge>ستاره یادتون نره:)</stronge>
 
 
