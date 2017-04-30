@@ -1,12 +1,12 @@
-bot = dofile('/home/flash2/inline/utils.lua')
-json = dofile('/home/flash2/inline/JSON.lua')
+bot = dofile('/home/flash3/inline/utils.lua')
+json = dofile('/home/flash3/inline/JSON.lua')
 URL = require "socket.url"
 serpent = require("serpent")
 http = require "socket.http"
 https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
-BASE = '/home/flash2/inline/'
+BASE = '/home/flash3/inline/'
 SUDO = 374734484 --sudo id
 sudo_users = {374734484,346189693,Userid}
 BOTS = 00000000 --bot id
