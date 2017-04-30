@@ -9,7 +9,7 @@
 <h4 dir="rtl"> ابتدا سورس را کلون کنید:</h4>
 <h6>(کد زیر را در ترمینال وارد کنید👇)</h6>
 <pre>
-<span>git clone https://github.com/Mohammadxx3/inline2.git</span>
+<span>git clone https://github.com/Mohammadxx3/inline3.git</span>
 </pre>
 <h4 dir="rtl">داخل فایل cli.lua بروید
 در خط ۱و۲و۹ بجای username یوزر سرور خودرا قرار دهید
@@ -25,7 +25,7 @@
 <br>➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖<br>
 </h4>حال ترمینال باز کنید و دستورات زیر را اجرا کنید
 <pre>
-<span>cd inline2</span>
+<span>cd inline3</span>
 <span>chmod +x api.sh</span>
 <span>chmod +x tg</span>
 <span>chmod +x cli.sh</span>
@@ -35,7 +35,7 @@
 <h4 dir="rtl">از شما شماره ربات خواسته می‌شود پس از وارد کردن آن کد ورود به اکانت ربات cli خواسته می‌شود آن را هم وارد کنید.
 <br>حال ترمینال جدید باز کنید و ربات api را با دستورات زیر ران کنید.</h4>
 <pre>
-<span>cd inline2</span>
+<span>cd inline3</span>
 <span>./api.sh</span>
 </pre>
 <h4 dir="rtl">قبل از دستورات لانچ screen بگذارید تا در صورت بستن ترمینال بات ها روشن بمونند
