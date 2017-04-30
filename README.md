@@ -1,6 +1,6 @@
 <h1><p align="center"><stronge>Inline Suores</stronge>
-<h3><p align="center">Opened By <a href="https://telegram.me/Bibak_BG"> Bibak </a>
-<h3><p align="center">DeBug By <a href="https://telegram.me/MehTi"> MehTi </a>
+<h3><p align="center">Opened By <a href="https://telegram.me/LockerTeam"> Bibak </a>
+<h3><p align="center">DeBug By <a href="https://telegram.me/KING_DIS_LOVE"> MehTi </a>
 <h1><p align="center"><stronge>ستاره یادتون نره:)</stronge>
 
 
@@ -9,7 +9,7 @@
 <h4 dir="rtl"> ابتدا سورس را کلون کنید:</h4>
 <h6>(کد زیر را در ترمینال وارد کنید👇)</h6>
 <pre>
-<span>git clone https://github.com/BibakBangTeam/inline.git</span>
+<span>git clone https://github.com/Mohammadxx3/inline1.git</span>
 </pre>
 <h4 dir="rtl">داخل فایل cli.lua بروید
 در خط ۱و۲و۹ بجای username یوزر سرور خودرا قرار دهید
@@ -25,7 +25,7 @@
 <br>➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖<br>
 </h4>حال ترمینال باز کنید و دستورات زیر را اجرا کنید
 <pre>
-<span>cd inline</span>
+<span>cd inline1</span>
 <span>chmod +x api.sh</span>
 <span>chmod +x tg</span>
 <span>chmod +x cli.sh</span>
@@ -35,7 +35,7 @@
 <h4 dir="rtl">از شما شماره ربات خواسته می‌شود پس از وارد کردن آن کد ورود به اکانت ربات cli خواسته می‌شود آن را هم وارد کنید.
 <br>حال ترمینال جدید باز کنید و ربات api را با دستورات زیر ران کنید.</h4>
 <pre>
-<span>cd inline</span>
+<span>cd inline1</span>
 <span>./api.sh</span>
 </pre>
 <h4 dir="rtl">قبل از دستورات لانچ screen بگذارید تا در صورت بستن ترمینال بات ها روشن بمونند
@@ -48,7 +48,7 @@
 <br><br>
 اگر جایی به مشکل بر خوردید به پی وی بنده مراجعه کنید
 <br> </h4>
- <h2 dir="rtl"><a href="https://telegram.me/BanG_TeaM">BanG TeaM</a>
-<br> <h3 dir="rtl">   <a href="https://telegram.me/bibak_BG">My Pv </a>
+ <h2 dir="rtl"><a href="https://telegram.me/LockerTeam">BanG TeaM</a>
+<br> <h3 dir="rtl">   <a href="https://telegram.me/King_Dis_love">My Pv </a>
 <br>
- <h2 dir="rtl"> <a href="https://telegram.me/Sudo_BanG">News Inline</a>
+ <h2 dir="rtl"> <a href="https://telegram.me/King_dep_love">News Inline</a>
