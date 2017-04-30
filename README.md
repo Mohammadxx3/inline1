@@ -9,7 +9,7 @@
 <h4 dir="rtl"> ابتدا سورس را کلون کنید:</h4>
 <h6>(کد زیر را در ترمینال وارد کنید👇)</h6>
 <pre>
-<span>git clone https://github.com/Mohammadxx3/inline1.git</span>
+<span>git clone https://github.com/Mohammadxx3/inline2.git</span>
 </pre>
 <h4 dir="rtl">داخل فایل cli.lua بروید
 در خط ۱و۲و۹ بجای username یوزر سرور خودرا قرار دهید
@@ -25,7 +25,7 @@
 <br>➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖<br>
 </h4>حال ترمینال باز کنید و دستورات زیر را اجرا کنید
 <pre>
-<span>cd inline1</span>
+<span>cd inline2</span>
 <span>chmod +x api.sh</span>
 <span>chmod +x tg</span>
 <span>chmod +x cli.sh</span>
